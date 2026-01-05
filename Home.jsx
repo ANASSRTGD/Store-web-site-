@@ -1,5 +1,5 @@
 import React from 'react'
-import products from '../data/products'
+import products from "./products";
 
 export default function Home({ onNavigate }) {
   const top = products.slice(0, 3)
