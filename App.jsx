@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
-import Home from './pages/Home'
-import Shop from './pages/Shop'
-import About from './pages/About'
-import Contact from './pages/Contact'
-
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+import Home from "./Home";
+import Shop from "./Shop";
+import Contact from "./Contact";
+import About from "./About";
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home')
 
@@ -20,5 +19,5 @@ export default function App() {
       </main>
       <Footer />
     </div>
-  )
-}
+};
+fix imports paths
