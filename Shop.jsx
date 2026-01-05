@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react'
 import products from "./products";
-import ProductCard from '../components/ProductCard'
+import ProductCard from "./ProductCard";
 
 export default function Shop() {
   const [filterType, setFilterType] = useState('all')
