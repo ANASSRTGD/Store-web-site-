@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import productsData from '../data/products'
+import products from "./products";
 import ProductCard from '../components/ProductCard'
 
 export default function Shop() {
