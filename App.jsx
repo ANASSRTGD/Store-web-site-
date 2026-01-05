@@ -16,8 +16,14 @@ export default function App() {
         {currentPage === 'shop' && <Shop />}
         {currentPage === 'about' && <About />}
         {currentPage === 'contact' && <Contact />}
-      </main>
+        function App() {
+  return (
+    <div>
+      <NavBar />
+      <Home />
       <Footer />
     </div>
-};
-fix imports paths
+  );
+}
+
+export default App;
